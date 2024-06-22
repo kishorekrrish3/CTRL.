@@ -1,0 +1,146 @@
+.whatwedo-dark {
+  width: 100%;
+  display: flex;
+  background-color: #191919;
+  padding-bottom: 4rem;
+}
+
+/* .whatwedo-gradient {
+  position: absolute;
+  max-width: 250px;
+  max-height: 200px;
+} */
+
+.whatwedo-dark-title {
+  max-width: 280px;
+  font-size: 32px;
+  color: #97a8f8;
+  text-align: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.2px;
+}
+
+.whatwedo-dark-title-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.whatwedo-dark-content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.whatwedo-dark-box {
+  max-width: 460px;
+  background-color: #1d1d1d;
+  border: 1px solid #e9efff;
+  transition: transform 0.3s ease-in-out;
+}
+.box-dark-img {
+  max-width: 460px;
+}
+.box-dark-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  row-gap: 2rem;
+}
+
+.box-dark-title {
+  font-size: 20px;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: #778ffd;
+}
+
+.box-dark-content {
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+  text-align: justify;
+  font-size: 14px;
+  color: #e1e1e1;
+}
+
+.whatwedo-dark-box:hover {
+  transform: scale(1.04);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1080px) {
+  .whatwedo-dark-box,
+  .box-dark-img {
+    max-width: 380px;
+  }
+  .box-dark-title {
+    font-size: 18px;
+  }
+  .box-dark-content {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .whatwedo-dark-box,
+  .box-dark-img {
+    max-width: 300px;
+  }
+  .box-dark-title {
+    font-size: 16px;
+  }
+  .box-dark-content {
+    font-size: 12px;
+  }
+  .box-dark-container {
+    gap: 1rem;
+    row-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .box-dark-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .whatwedo-dark-title {
+    font-size: 24px;
+    max-width: 200px;
+  }
+  .whatwedo-dark-box {
+    max-width: 80%;
+  }
+  .box-dark-img {
+    max-width: 100%;
+  }
+  .box-dark-title {
+    font-size: 15px;
+  }
+  .box-dark-content {
+    font-size: 11px;
+    padding-bottom: 2rem;
+  }
+  .whatwedo-dark-content {
+    padding-top: 2rem;
+  }
+}

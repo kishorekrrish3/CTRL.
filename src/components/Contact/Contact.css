@@ -1,0 +1,213 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e6edff;
+}
+
+.contact-title {
+  margin-top: 4rem;
+  font-size: 36px;
+  color: #97a8f8;
+  letter-spacing: 4px;
+  margin-bottom: 2rem;
+}
+
+.contact-form-label {
+  font-weight: 600;
+  color: #191919;
+  font-size: 14px;
+}
+
+.input-container {
+  width: 360px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #585858;
+  display: flex;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+
+.contact-input {
+  margin-left: 1rem;
+  border: none;
+  background-color: #e6edff;
+  font-family: Montserrat;
+  color: #585858;
+  max-width: 280px;
+  font-size: 13px;
+  outline: none;
+}
+
+.contact-input-icon {
+  max-width: 24px;
+  max-height: 24px;
+  margin-left: 1rem;
+}
+
+.l1,
+.l2,
+.l3,
+.l4 {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.xl-cont {
+  width: 756px;
+}
+
+.message-container {
+  background-color: #e6edff;
+  border: 1px solid #191919;
+  border-radius: 32px;
+  padding-left: 16px;
+  padding-top: 12px;
+  margin-top: 0.5rem;
+}
+
+.message-textarea {
+  max-width: 720px;
+  max-height: 140px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  font-family: Montserrat;
+  color: #585858;
+  font-size: 13px;
+  outline: none;
+}
+
+.l4 {
+  display: block; /* This forces the label onto a new line */
+}
+
+.copyright {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.copyright-icon {
+  max-width: 18px;
+  margin-right: 0.5rem;
+  margin-top: 3px;
+}
+
+.ctrl-name {
+  color: #1fd9e4;
+}
+
+.contact-form-btn {
+  margin-top: 1rem;
+  max-width: 750px;
+  width: 100%;
+  border-radius: 12px;
+  height: 42px;
+  background-color: #97a8f8;
+  color: #191919;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: "Montserrat";
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-form-btn:hover {
+  background-color: #7f95f7;
+}
+
+.contact-form-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.l1,
+.l2,
+.l3,
+.l4 {
+  max-width: 750px;
+}
+
+.input-container {
+  max-width: 750px;
+}
+
+.contact-form {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+  .l1 {
+    flex-direction: column;
+  }
+  .input-container {
+    width: 560px;
+  }
+  .xl-cont {
+    width: 560px;
+  }
+  .l2 {
+    margin-left: 0;
+  }
+  .contact-input {
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .input-container {
+    width: 380px;
+  }
+  .contact-form-label {
+    font-size: 12 px;
+  }
+  .contact-input {
+    font-size: 12px;
+    margin-left: 0.5rem;
+  }
+  .contact-input-icon {
+    width: 18px;
+  }
+  .contact-form-btn {
+    font-size: 14px;
+  }
+  .message-textarea {
+    font-size: 12px;
+  }
+  .contact-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .input-container {
+    width: 280px;
+    height: 32px;
+  }
+  .message-container {
+    width: 264px;
+  }
+  .message-textarea {
+    font-size: 11px;
+  }
+  .contact-input {
+    width: 200px;
+    font-size: 11px;
+  }
+  .contact-form-label {
+    font-size: 11px;
+  }
+  .contact-title {
+    font-size: 28px;
+  }
+}

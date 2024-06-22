@@ -1,0 +1,126 @@
+.navbar-dark {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  background-color: #0b0b0b;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-dark-container {
+  width: 100%;
+  border-bottom: 1px solid #dbe6ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-dark-logo {
+  width: auto;
+  height: 32px;
+  margin-left: 1.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-dark-logo-container {
+  padding-right: 2rem;
+  border-right: 1px solid #dbe6ff;
+}
+
+.navbar-dark-links,
+.navbar-dark-logo,
+.navbar-dark-insta,
+.navbar-dark-phone {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navbar-dark-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+
+.navbar-dark-social {
+  display: flex;
+  margin-right: 1.5rem;
+  gap: 1.5rem;
+}
+
+.link-2 {
+  margin-right: 1rem;
+}
+
+.navbar-dark-link {
+  width: 100px;
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #dbe6ff;
+  transition: transform 0.2s ease-in-out, padding-bottom 0.2s ease-in-out,
+    font-weight 0.2s ease-in-out;
+}
+
+.navbar-dark-phone,
+.navbar-dark-insta {
+  width: 28px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-dark-insta-container {
+  border-left: 1px solid #dbe6ff;
+  padding: 0 0 0 1rem;
+}
+
+.navbar-dark-phone-container {
+  border-left: 1px solid #dbe6ff;
+  padding: 0 0 0 1.5rem;
+}
+
+/* ANIMATIONS */
+.navbar-dark-link:hover {
+  transform: scale(1.05);
+  padding-bottom: 8px;
+  font-weight: 700;
+  color: #dbe6ff;
+}
+
+.navbar-dark-insta:hover,
+.navbar-dark-phone:hover {
+  transform: scale(1.1);
+}
+
+.navbar-dark-logo:hover {
+  transform: scale(1.06);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1200px) {
+  .navbar-dark-link {
+    font-size: 14px;
+    padding-right: 0.5rem;
+  }
+  .last-dark-link {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .navbar-dark-link {
+    font-size: 13px;
+    width: 76px;
+  }
+  .navbar-dark-link:hover {
+    font-size: 13px;
+    padding-bottom: 0;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .navbar-dark-links {
+    display: none;
+  }
+}
