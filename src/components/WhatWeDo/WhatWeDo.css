@@ -77,6 +77,10 @@
   font-size: 14px;
 }
 
+.whatwedo-box:hover {
+  transform: scale(1.04);
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 1080px) {
   .whatwedo-box,
