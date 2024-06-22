@@ -62,3 +62,13 @@ input[type="number"]::-webkit-inner-spin-button {
   height: 42px;
   transition: transform 0.2s ease-in-out;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1300px) {
+  .dark-mode-btn,
+  .light-mode-btn {
+    right: 2rem;
+    top: 38rem;
+  }
+}
